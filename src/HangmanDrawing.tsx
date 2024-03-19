@@ -7,7 +7,75 @@ const Head = (
       border: "10px solid black",
       position: "absolute",
       top: "50px",
-      left: "300px",
+      right: "-30px",
+    }}
+  ></div>
+);
+const Body = (
+  <div
+    style={{
+      width: "10px",
+      height: "110px",
+      background: "black",
+      position: "absolute",
+      right: "0px",
+      top: "110px",
+    }}
+  ></div>
+);
+const RightArm = (
+  <div
+    style={{
+      width: "80px",
+      height: "10px",
+      background: "black",
+      position: "absolute",
+      top: "135px",
+      right: "-80px",
+      rotate: "-30deg",
+      transformOrigin: "left bottom",
+    }}
+  ></div>
+);
+const LeftArm = (
+  <div
+    style={{
+      width: "80px",
+      height: "10px",
+      background: "black",
+      position: "absolute",
+      top: "135px",
+      right: "10px",
+      rotate: "30deg",
+      transformOrigin: "right bottom",
+    }}
+  ></div>
+);
+const LeftLeg = (
+  <div
+    style={{
+      width: "80px",
+      height: "10px",
+      background: "black",
+      position: "absolute",
+      top: "265px",
+      right: "-50px",
+      rotate: "45deg",
+      transformOrigin: "right bottom",
+    }}
+  ></div>
+);
+const RightLeg = (
+  <div
+    style={{
+      width: "80px",
+      height: "10px",
+      background: "black",
+      position: "absolute",
+      top: "198px",
+      right: "-73px",
+      rotate: "135deg",
+      transformOrigin: "left bottom",
     }}
   ></div>
 );
@@ -16,13 +84,19 @@ export function HangmanDrawing() {
   return (
     <div style={{ position: "relative" }}>
       {Head}
+      {Body}
+      {RightArm}
+      {LeftArm}
+      {LeftLeg}
+
+      {RightLeg}
       <div
         style={{
           height: "50px",
           width: "10px",
           position: "absolute",
           top: 0,
-          left: 330,
+          right: 0,
           background: "black",
         }}
       ></div>
