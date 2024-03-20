@@ -1,0 +1,22 @@
+.btn {
+  width: 100%;
+  border: 5px solid black;
+  background: none;
+  aspect-ratio: 1 / 1;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s, background 0.3s;
+}
+.btn.active {
+}
+.btn.inactive {
+  opacity: 0.3;
+}
+.btn:hover,
+.btn:focus {
+  color: white;
+  background: black;
+}
