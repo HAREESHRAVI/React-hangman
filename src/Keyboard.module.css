@@ -15,8 +15,8 @@
 .btn.inactive {
   opacity: 0.3;
 }
-.btn:hover,
-.btn:focus {
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
   color: white;
   background: black;
 }
