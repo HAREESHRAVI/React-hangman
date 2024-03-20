@@ -83,13 +83,6 @@ const RightLeg = (
 export function HangmanDrawing() {
   return (
     <div style={{ position: "relative" }}>
-      {Head}
-      {Body}
-      {RightArm}
-      {LeftArm}
-      {LeftLeg}
-
-      {RightLeg}
       <div
         style={{
           height: "50px",
