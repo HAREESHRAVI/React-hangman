@@ -1,5 +1,7 @@
 # React-hangman
 
+Hangman is a classic word-guessing game where one player thinks of a word and the other player tries to guess it by suggesting letters within a certain number of guesses.Created using Typescript and React js
+
 ## Description:
 
 The Hangman game implemented in React and TypeScript offers a modern and interactive user experience. The game consists of a user interface where players can interact with the game elements to guess the hidden word. Here's an overview of the main components and features:
